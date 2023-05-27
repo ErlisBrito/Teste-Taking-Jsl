@@ -1,0 +1,399 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Apresentation.csproj": {}
+  },
+  "projects": {
+    "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Application\\Teste-Taking-Jsl.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Application\\Teste-Taking-Jsl.Application.csproj",
+        "projectName": "Teste-Taking-Jsl.Application",
+        "projectPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Application\\Teste-Taking-Jsl.Application.csproj",
+        "packagesPath": "C:\\Users\\brb-s\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\brb-s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Common\\Teste-Taking-Jsl.Common.csproj": {
+                "projectPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Common\\Teste-Taking-Jsl.Common.csproj"
+              },
+              "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Domain\\Teste-Taking-Jsl.Domain.csproj": {
+                "projectPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Domain\\Teste-Taking-Jsl.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Common\\Teste-Taking-Jsl.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Common\\Teste-Taking-Jsl.Common.csproj",
+        "projectName": "Teste-Taking-Jsl.Common",
+        "projectPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Common\\Teste-Taking-Jsl.Common.csproj",
+        "packagesPath": "C:\\Users\\brb-s\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\brb-s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.CrossCutting.IoC\\Teste-Taking-Jsl.CrossCutting.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.CrossCutting.IoC\\Teste-Taking-Jsl.CrossCutting.IoC.csproj",
+        "projectName": "Teste-Taking-Jsl.CrossCutting.IoC",
+        "projectPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.CrossCutting.IoC\\Teste-Taking-Jsl.CrossCutting.IoC.csproj",
+        "packagesPath": "C:\\Users\\brb-s\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.CrossCutting.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\brb-s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Application\\Teste-Taking-Jsl.Application.csproj": {
+                "projectPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Application\\Teste-Taking-Jsl.Application.csproj"
+              },
+              "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Data\\Teste-Taking-Jsl.Data.csproj": {
+                "projectPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Data\\Teste-Taking-Jsl.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Data\\Teste-Taking-Jsl.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Data\\Teste-Taking-Jsl.Data.csproj",
+        "projectName": "Teste-Taking-Jsl.Data",
+        "projectPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Data\\Teste-Taking-Jsl.Data.csproj",
+        "packagesPath": "C:\\Users\\brb-s\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\brb-s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Domain\\Teste-Taking-Jsl.Domain.csproj": {
+                "projectPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Domain\\Teste-Taking-Jsl.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Domain\\Teste-Taking-Jsl.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Domain\\Teste-Taking-Jsl.Domain.csproj",
+        "projectName": "Teste-Taking-Jsl.Domain",
+        "projectPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Domain\\Teste-Taking-Jsl.Domain.csproj",
+        "packagesPath": "C:\\Users\\brb-s\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\brb-s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Apresentation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Apresentation.csproj",
+        "projectName": "Teste-Taking-Jsl.Apresentation",
+        "projectPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Apresentation.csproj",
+        "packagesPath": "C:\\Users\\brb-s\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\brb-s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Application\\Teste-Taking-Jsl.Application.csproj": {
+                "projectPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Application\\Teste-Taking-Jsl.Application.csproj"
+              },
+              "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.CrossCutting.IoC\\Teste-Taking-Jsl.CrossCutting.IoC.csproj": {
+                "projectPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.CrossCutting.IoC\\Teste-Taking-Jsl.CrossCutting.IoC.csproj"
+              },
+              "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Data\\Teste-Taking-Jsl.Data.csproj": {
+                "projectPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Data\\Teste-Taking-Jsl.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

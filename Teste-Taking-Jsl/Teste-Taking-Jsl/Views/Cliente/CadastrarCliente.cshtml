@@ -1,0 +1,94 @@
+﻿@model Teste_Taking_Jsl.Application.Models.ClienteViewModel
+@{
+    ViewData["Title"] = "Cadastro de Cliente";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="preloader">
+    <div class="preloader-inner">
+        <div class="preloader-icon">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</div>
+<div class="breadcrumbs">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 offset-lg-3 col-md-12 col-12">
+                <div class="breadcrumbs-content">
+                    <h1 class="page-title">@(Model?.Id > 0 ? "Atualizar Cliente":"Cadastrar Cliente")</h1>
+                    <ul class="breadcrumb-nav">
+                        <li> <a class="btn" href="@Url.Action("Index","Home")">Home</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<section class="about section">
+    <div class="container">
+        <div class="row align-items-center">
+
+            <div class="row mb-4">
+
+                @using (Html.BeginForm("SalvarCliente", "Cliente", FormMethod.Post, new { @class = "contact-from form-valide" }))
+                {
+                    @Html.HiddenFor(p => p.Id)
+                    <div class="form-control">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="form-outline">
+                                    <label>Nome</label>
+                                    @Html.TextBoxFor(p => p.Nome ,new { @class="form-control" ,@placeholder = "Digite o nome do Cliente", required="required"} )
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="form-outline">
+                                    <label>E-mail</label>
+                                    @Html.TextBoxFor(p => p.Email ,new { @class="form-control" ,@placeholder = "Digite o E-mail", required="required"} )
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="form-outline">
+                                    <label>Telefono</label>
+                                    @Html.TextBoxFor(p => p.Telefone ,new { @class="form-control",@typeof="email" ,@placeholder = "Digite o Telefone", required="required"} )
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="form-outline">
+                                    <label class="custom-control-label">Status</label>
+                                    <select class="form-control" id="status" name="status">
+                                        <option value="true">Ativo</option>
+                                        <option value="false">Inativo</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <hr />
+                    <div class="row">
+                        <button class="btn-outline-primary" type="submit" name="submit" value="Salvar">
+                            @(Model?.Id > default(int)? "Atualizar":"Salvar")
+                        </button>
+                        <br>
+
+                        <a class="d-flex justify-content-center" href="@Url.Action("Index","Home")">
+                            Voltar
+                        </a>
+                    </div>
+                }
+                </>
+            </div>
+        </div>
+
+
+</section>
+
+
+

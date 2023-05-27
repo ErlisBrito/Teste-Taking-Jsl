@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Teste_Taking_Jsl.Application</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Teste-Taking-Jsl.Common\Teste-Taking-Jsl.Common.csproj" />
+    <ProjectReference Include="..\Teste-Taking-Jsl.Domain\Teste-Taking-Jsl.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
