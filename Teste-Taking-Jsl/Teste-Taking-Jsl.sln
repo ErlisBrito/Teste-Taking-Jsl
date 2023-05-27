@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teste-Taking-Jsl.Apresentation", "Teste-Taking-Jsl\Teste-Taking-Jsl.Apresentation.csproj", "{AE9B74F1-3881-4333-8EA6-E11CB196864D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Apresentation", "0 - Apresentation", "{42E81A9E-A976-4431-9899-D74F961BAFDA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{AE790980-820D-4FF9-B660-447DAF64CD1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{2DB1B9AA-C6A6-4F10-B649-BDD36DFC3B8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infra", "3 - Infra", "{2EC12F6A-A506-4BF5-898C-B3289CE39ED3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Common", "4 - Common", "{B1370967-667F-4AF3-BBFA-63DF4FE7811A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teste-Taking-Jsl.Application", "Teste-Taking-Jsl.Application\Teste-Taking-Jsl.Application.csproj", "{A05D7C4A-C4F5-4C3A-9F01-6F8EA9C1028F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teste-Taking-Jsl.Domain", "Teste-Taking-Jsl.Domain\Teste-Taking-Jsl.Domain.csproj", "{E63368B4-8963-4805-A95A-7114BD495363}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 - Data", "3.1 - Data", "{AD9C8049-D88E-4739-8516-6EC6C7AEA663}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2 - CrossCutting", "3.2 - CrossCutting", "{BA6C3FFF-38AD-440B-B3A2-9FCF286479DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teste-Taking-Jsl.CrossCutting.IoC", "Teste-Taking-Jsl.CrossCutting.IoC\Teste-Taking-Jsl.CrossCutting.IoC.csproj", "{EA813F8C-123D-4B65-B2C2-ED78ED0471AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teste-Taking-Jsl.Data", "Teste-Taking-Jsl.Data\Teste-Taking-Jsl.Data.csproj", "{72299E9D-E118-4CB1-ABE4-44D346D85884}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teste-Taking-Jsl.Common", "Teste-Taking-Jsl.Common\Teste-Taking-Jsl.Common.csproj", "{36EEAB3F-FDBE-474B-BA6F-6EA2FAE4B492}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE9B74F1-3881-4333-8EA6-E11CB196864D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE9B74F1-3881-4333-8EA6-E11CB196864D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE9B74F1-3881-4333-8EA6-E11CB196864D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE9B74F1-3881-4333-8EA6-E11CB196864D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A05D7C4A-C4F5-4C3A-9F01-6F8EA9C1028F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A05D7C4A-C4F5-4C3A-9F01-6F8EA9C1028F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A05D7C4A-C4F5-4C3A-9F01-6F8EA9C1028F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A05D7C4A-C4F5-4C3A-9F01-6F8EA9C1028F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E63368B4-8963-4805-A95A-7114BD495363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E63368B4-8963-4805-A95A-7114BD495363}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E63368B4-8963-4805-A95A-7114BD495363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E63368B4-8963-4805-A95A-7114BD495363}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA813F8C-123D-4B65-B2C2-ED78ED0471AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA813F8C-123D-4B65-B2C2-ED78ED0471AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA813F8C-123D-4B65-B2C2-ED78ED0471AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA813F8C-123D-4B65-B2C2-ED78ED0471AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72299E9D-E118-4CB1-ABE4-44D346D85884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72299E9D-E118-4CB1-ABE4-44D346D85884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72299E9D-E118-4CB1-ABE4-44D346D85884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72299E9D-E118-4CB1-ABE4-44D346D85884}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36EEAB3F-FDBE-474B-BA6F-6EA2FAE4B492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36EEAB3F-FDBE-474B-BA6F-6EA2FAE4B492}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36EEAB3F-FDBE-474B-BA6F-6EA2FAE4B492}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36EEAB3F-FDBE-474B-BA6F-6EA2FAE4B492}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AE9B74F1-3881-4333-8EA6-E11CB196864D} = {42E81A9E-A976-4431-9899-D74F961BAFDA}
+		{A05D7C4A-C4F5-4C3A-9F01-6F8EA9C1028F} = {AE790980-820D-4FF9-B660-447DAF64CD1D}
+		{E63368B4-8963-4805-A95A-7114BD495363} = {2DB1B9AA-C6A6-4F10-B649-BDD36DFC3B8C}
+		{AD9C8049-D88E-4739-8516-6EC6C7AEA663} = {2EC12F6A-A506-4BF5-898C-B3289CE39ED3}
+		{BA6C3FFF-38AD-440B-B3A2-9FCF286479DB} = {2EC12F6A-A506-4BF5-898C-B3289CE39ED3}
+		{EA813F8C-123D-4B65-B2C2-ED78ED0471AE} = {BA6C3FFF-38AD-440B-B3A2-9FCF286479DB}
+		{72299E9D-E118-4CB1-ABE4-44D346D85884} = {AD9C8049-D88E-4739-8516-6EC6C7AEA663}
+		{36EEAB3F-FDBE-474B-BA6F-6EA2FAE4B492} = {B1370967-667F-4AF3-BBFA-63DF4FE7811A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36E1646C-FE9A-49BC-A0F6-06DBCFD8E347}
+	EndGlobalSection
+EndGlobal

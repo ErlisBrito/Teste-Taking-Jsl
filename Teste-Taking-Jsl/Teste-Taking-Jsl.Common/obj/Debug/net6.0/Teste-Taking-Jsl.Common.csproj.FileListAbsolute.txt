@@ -1,0 +1,12 @@
+C:\Projetos\Teste-Taking-Jsl\Teste-Taking-Jsl\Teste-Taking-Jsl.Common\bin\Debug\net6.0\Teste-Taking-Jsl.Common.deps.json
+C:\Projetos\Teste-Taking-Jsl\Teste-Taking-Jsl\Teste-Taking-Jsl.Common\bin\Debug\net6.0\Teste-Taking-Jsl.Common.dll
+C:\Projetos\Teste-Taking-Jsl\Teste-Taking-Jsl\Teste-Taking-Jsl.Common\bin\Debug\net6.0\Teste-Taking-Jsl.Common.pdb
+C:\Projetos\Teste-Taking-Jsl\Teste-Taking-Jsl\Teste-Taking-Jsl.Common\obj\Debug\net6.0\Teste-Taking-Jsl.Common.csproj.AssemblyReference.cache
+C:\Projetos\Teste-Taking-Jsl\Teste-Taking-Jsl\Teste-Taking-Jsl.Common\obj\Debug\net6.0\Teste-Taking-Jsl.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\Teste-Taking-Jsl\Teste-Taking-Jsl\Teste-Taking-Jsl.Common\obj\Debug\net6.0\Teste-Taking-Jsl.Common.AssemblyInfoInputs.cache
+C:\Projetos\Teste-Taking-Jsl\Teste-Taking-Jsl\Teste-Taking-Jsl.Common\obj\Debug\net6.0\Teste-Taking-Jsl.Common.AssemblyInfo.cs
+C:\Projetos\Teste-Taking-Jsl\Teste-Taking-Jsl\Teste-Taking-Jsl.Common\obj\Debug\net6.0\Teste-Taking-Jsl.Common.csproj.CoreCompileInputs.cache
+C:\Projetos\Teste-Taking-Jsl\Teste-Taking-Jsl\Teste-Taking-Jsl.Common\obj\Debug\net6.0\Teste-Taking-Jsl.Common.dll
+C:\Projetos\Teste-Taking-Jsl\Teste-Taking-Jsl\Teste-Taking-Jsl.Common\obj\Debug\net6.0\refint\Teste-Taking-Jsl.Common.dll
+C:\Projetos\Teste-Taking-Jsl\Teste-Taking-Jsl\Teste-Taking-Jsl.Common\obj\Debug\net6.0\Teste-Taking-Jsl.Common.pdb
+C:\Projetos\Teste-Taking-Jsl\Teste-Taking-Jsl\Teste-Taking-Jsl.Common\obj\Debug\net6.0\ref\Teste-Taking-Jsl.Common.dll
