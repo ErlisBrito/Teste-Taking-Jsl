@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Common\\Teste-Taking-Jsl.Common.csproj": {}
+    "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Common\\Teste-Taking-Jsl.Common.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Common\\Teste-Taking-Jsl.Common.csproj": {
+    "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Common\\Teste-Taking-Jsl.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Common\\Teste-Taking-Jsl.Common.csproj",
+        "projectUniqueName": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Common\\Teste-Taking-Jsl.Common.csproj",
         "projectName": "Teste-Taking-Jsl.Common",
-        "projectPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Common\\Teste-Taking-Jsl.Common.csproj",
+        "projectPath": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Common\\Teste-Taking-Jsl.Common.csproj",
         "packagesPath": "C:\\Users\\brb-s\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Common\\obj\\",
+        "outputPath": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\brb-s\\AppData\\Roaming\\NuGet\\NuGet.Config",

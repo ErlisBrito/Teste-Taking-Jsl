@@ -33,6 +33,8 @@ namespace Teste_Taking_Jsl.Data.Repository
 
         public async Task<List<Cliente>> ListarClienteAsync() => await _context.Cliente.ToListAsync();
 
+        public async Task<List<Cliente>> ListarClienteAtivosAsync() => await _context.Cliente.Where(p => p.Status).ToListAsync();
+
         public async Task<Cliente> ObterClienteAsync(string email) =>
            await _context.Cliente.FirstOrDefaultAsync(p => p.Email.Equals(email));
 

@@ -56,11 +56,8 @@ namespace Teste_Taking_Jsl.Controllers
         {
             var resultado = await _clienteAppService.ObterClienteAsync(id);
             ViewBag.Sucess = resultado.Mensagem;
-            return RedirectToAction("Index", "Cliente");
+            return View("CadastrarCliente", resultado.Model);
         }
-
-
-
         [HttpGet]
         public async Task<IActionResult> DeletarCliente(int id)
         {

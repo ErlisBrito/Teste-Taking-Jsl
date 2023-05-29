@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Domain\\Teste-Taking-Jsl.Domain.csproj",
+      "projectUniqueName": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Domain\\Teste-Taking-Jsl.Domain.csproj",
       "projectName": "Teste-Taking-Jsl.Domain",
-      "projectPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Domain\\Teste-Taking-Jsl.Domain.csproj",
+      "projectPath": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Domain\\Teste-Taking-Jsl.Domain.csproj",
       "packagesPath": "C:\\Users\\brb-s\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Domain\\obj\\",
+      "outputPath": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\brb-s\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7AbwhwN6/oEuPjNQoqS5m7j/qJDyEDCbfanahR9dHjH4QeYDcO4yckvROpgmvV9A55kzDyNBFALkD2TqFPs9Vg==",
+  "dgSpecHash": "NSY+G8a1fYy0N/rIo3FgvvTW9vGlI+kACtx8Ug9xPs3bgyKtmpLsK7zbsp0DBbEf5qHTgM4VZ/mlcnMadmaRxw==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.CrossCutting.IoC\\Teste-Taking-Jsl.CrossCutting.IoC.csproj",
+  "projectFilePath": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.CrossCutting.IoC\\Teste-Taking-Jsl.CrossCutting.IoC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\brb-s\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\brb-s\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

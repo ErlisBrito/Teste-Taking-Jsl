@@ -154,11 +154,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Application\\Teste-Taking-Jsl.Application.csproj",
+      "projectUniqueName": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Application\\Teste-Taking-Jsl.Application.csproj",
       "projectName": "Teste-Taking-Jsl.Application",
-      "projectPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Application\\Teste-Taking-Jsl.Application.csproj",
+      "projectPath": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Application\\Teste-Taking-Jsl.Application.csproj",
       "packagesPath": "C:\\Users\\brb-s\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Application\\obj\\",
+      "outputPath": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\brb-s\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -175,11 +175,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Common\\Teste-Taking-Jsl.Common.csproj": {
-              "projectPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Common\\Teste-Taking-Jsl.Common.csproj"
+            "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Common\\Teste-Taking-Jsl.Common.csproj": {
+              "projectPath": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Common\\Teste-Taking-Jsl.Common.csproj"
             },
-            "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Domain\\Teste-Taking-Jsl.Domain.csproj": {
-              "projectPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Domain\\Teste-Taking-Jsl.Domain.csproj"
+            "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Domain\\Teste-Taking-Jsl.Domain.csproj": {
+              "projectPath": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Domain\\Teste-Taking-Jsl.Domain.csproj"
             }
           }
         }

@@ -12,9 +12,13 @@ namespace Teste_Taking_Jsl.Data.Contexts
             ChangeTracker.AutoDetectChangesEnabled = false;
         }
         public DbSet<Cliente> Cliente { get; set; }
+        public DbSet<Produto> Produto { get; set; }
+        public DbSet<Pedido> Pedido { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new ClienteMap());
+            modelBuilder.ApplyConfiguration(new ProdutoMap());
+            modelBuilder.ApplyConfiguration(new PedidoMap());
         }
     }
 }
