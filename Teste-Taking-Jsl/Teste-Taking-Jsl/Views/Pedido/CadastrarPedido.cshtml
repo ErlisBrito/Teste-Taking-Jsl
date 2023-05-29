@@ -1,0 +1,124 @@
+﻿@model Teste_Taking_Jsl.Application.Models.PedidoViewModel
+@{
+    ViewData["Title"] = "Pedido";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="preloader">
+    <div class="preloader-inner">
+        <div class="preloader-icon">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</div>
+<div class="breadcrumbs">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 offset-lg-3 col-md-12 col-12">
+                <div class="breadcrumbs-content">
+                    <h1 class="page-title">@(Model?.Id > 0 ? "Atualizar Pedido":"Realizar Pedido")</h1>
+                    <ul class="breadcrumb-nav">
+                        <li> <a class="btn" href="@Url.Action("Index","Home")">Home</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<section class="about section">
+    <div class="container">
+        <div class="row align-items-center">
+
+            <div class="row mb-4">
+
+                @using (Html.BeginForm("SalvarPedido", "Pedido", FormMethod.Post, new { @class = "contact-from form-valide" }))
+                {
+                    @Html.HiddenFor(p => p.Id)
+                    <div class="form-control">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <div class="form-outline">
+                                    <label>Cliente</label>
+                                    @Html.DropDownListFor(p => p.ClienteId,(List<SelectListItem>)ViewBag.Cliente,"Selecione",new { @class = "form-control input-rounded",required="required"})
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="form-outline">
+                                    <label>Produto</label>
+                                    @Html.DropDownListFor(p => p.ProdutoId,(List<SelectListItem>)ViewBag.Produto,"Selecione",new { @class = "form-control input-rounded",required="required"})
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="form-outline">
+                                    <label>Quantidade</label>
+                                    @Html.TextBoxFor(p => p.Quantidade ,new { @class="form-control",@placeholder = "Digite a quantidade", required="required"} )
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="form-outline">
+                                    <label>Status do Pedido</label>
+                                    @Html.DropDownListFor(p => p.Status,(List<SelectListItem>)ViewBag.Status,"Selecione",new { @class = "form-control input-rounded",required="required"})
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-outline">
+                                        <label>Logradouro</label>
+                                        @Html.TextBoxFor(p => p.Logradouro ,new { @class="form-control" ,@placeholder = "Digite o endereço", required="required"} )
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-outline">
+                                        <label>Bairro</label>
+                                        @Html.TextBoxFor(p => p.Bairro ,new { @class="form-control" ,@placeholder = "Digite o Bairro", required="required"} )
+                                    </div>
+                                </div>
+                                                               
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-outline">
+                                        <label>Cidade</label>
+                                        @Html.TextBoxFor(p => p.Cidade ,new { @class="form-control" ,@placeholder = "Digite a Cidade", required="required"} )
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="form-outline">
+                                        <label>Estado</label>
+                                        @Html.TextBoxFor(p => p.Estado ,new { @class="form-control" ,@placeholder = "Digite o estado seguindo o exemplo: SP", required="required"} )
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="form-outline">
+                                        <label>Cep</label>
+                                        @Html.TextBoxFor(p => p.Cep ,new { @class="form-control" ,@placeholder = "Digite o cep", required="required"} )
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <hr />
+                    <div class="row">
+                        <button class="btn-outline-primary" type="submit" name="submit" value="Salvar">
+                            @(Model?.Id > default(int)? "Atualizar":"Salvar")
+                        </button>
+                        <br>
+
+                        <a class="d-flex justify-content-center" href="@Url.Action("Index","Home")">
+                            Voltar
+                        </a>
+                    </div>
+                }
+                </>
+            </div>
+        </div>
+
+
+</section>
+
+
+

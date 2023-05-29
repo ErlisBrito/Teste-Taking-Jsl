@@ -1,83 +1,129 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Teste_Taking_Jsl.Application.Interfaces;
+using Teste_Taking_Jsl.Application.Models;
 
 namespace Teste_Taking_Jsl.Controllers
 {
     public class PedidoController : Controller
     {
-        // GET: PedidoController
+        private readonly IClienteAppService _clienteAppService;
+        private readonly IProdutoAppService _produtoAppService;
+        private readonly IPedidoAppService _pedidoAppService;
+
+        public PedidoController(IClienteAppService clienteAppService, IProdutoAppService produtoAppService, IPedidoAppService pedidoAppService)
+        {
+            _clienteAppService = clienteAppService;
+            _produtoAppService = produtoAppService;
+            _pedidoAppService = pedidoAppService;
+        }
+
+        [HttpGet]
         public ActionResult Index()
         {
             return View();
         }
-
-        // GET: PedidoController/Details/5
-        public ActionResult Details(int id)
+        [HttpGet]
+        public async Task<JsonResult> ListarPedidos()
         {
+            var lstPedidos = await _pedidoAppService.ListarPedidoAsync();
+            return Json(lstPedidos);
+        }
+    
+
+        [HttpGet]
+        public async Task<ActionResult> CadastrarPedidoAsync()
+        {
+
+            ViewBag.Cliente = await ObterCliente();
+            ViewBag.Produto = await ObterProduto();
+            ViewBag.Status = await ObterStatus();
             return View();
         }
 
-        // GET: PedidoController/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
 
-        // POST: PedidoController/Create
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public async Task<ActionResult> SalvarPedido(PedidoViewModel pedidoViewModel)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                if (pedidoViewModel.Id > default(int))
+                    await _pedidoAppService.AtualizarPedidoAsync(pedidoViewModel);
+                else
+                    await _pedidoAppService.SalvarPedidoAsync(pedidoViewModel);
+                return RedirectToAction("Index", "Pedido");
             }
-            catch
+            catch (Exception)
             {
-                return View();
+                throw;
             }
         }
 
-        // GET: PedidoController/Edit/5
-        public ActionResult Edit(int id)
+        
+        [HttpGet]
+        public async Task<ActionResult> EditarPedido(int id)
         {
-            return View();
+            var resultado = await _pedidoAppService.ObterPedidoAsync(id);
+            ViewBag.Cliente = await ObterCliente();
+            ViewBag.Produto = await ObterProduto();
+            ViewBag.Status = await ObterStatus();
+            return View("CadastrarPedido", resultado.Model);
         }
 
-        // POST: PedidoController/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+
+       
+        [HttpGet]
+        public async Task<ActionResult> DetalheCliente(int clienteId)
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            var resultado = await _clienteAppService.ObterClienteAsync(clienteId);
+            return View(resultado.Model);
         }
 
-        // GET: PedidoController/Delete/5
-        public ActionResult Delete(int id)
+        [HttpGet]
+        public async Task<ActionResult> DetalheProduto(int produtoId)
         {
-            return View();
+            var resultado = await _produtoAppService.ObterClienteAsync(produtoId);
+            return View(resultado.Model);
         }
 
-        // POST: PedidoController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        [HttpGet]
+        public async Task<ActionResult> DeletarPedido(int id)
         {
-            try
+            _ = await _pedidoAppService.DeletarPedidoAsync(id);
+            return RedirectToAction("Index", "Pedido");
+        }
+
+        private async Task<List<SelectListItem>> ObterCliente()
+        {
+            List<SelectListItem> selectListItems = new List<SelectListItem>();
+            var lstCliente = await _clienteAppService.ListarClienteAtivoAsync();
+            foreach (var item in lstCliente.Model)
             {
-                return RedirectToAction(nameof(Index));
+                string clienteId = item.Id.ToString();
+                selectListItems.Add(new SelectListItem() { Text = item.Nome, Value = clienteId });
             }
-            catch
+
+            return selectListItems;
+        }
+
+        private async Task<List<SelectListItem>> ObterProduto()
+        {
+            var lstProduto = await _produtoAppService.ListarProdutoAtivoAsync();
+            var lstItem = new List<SelectListItem>();
+            foreach (var item in lstProduto.Model)
             {
-                return View();
+                lstItem.Add(new SelectListItem() { Text = item.Nome, Value = item.Id.ToString() });
             }
+            return lstItem;
+        }
+        private async Task<List<SelectListItem>> ObterStatus()
+        {
+            return new List<SelectListItem>
+            {
+                new SelectListItem {Text = "Novo", Value = "novo"},
+                new SelectListItem {Text = "Atendido", Value = "atendido"},
+                new SelectListItem {Text = "Em rota", Value = "em rota"}
+            };
         }
     }
 }

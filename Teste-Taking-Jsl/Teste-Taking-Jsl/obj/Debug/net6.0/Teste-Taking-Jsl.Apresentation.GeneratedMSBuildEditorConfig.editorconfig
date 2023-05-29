@@ -8,41 +8,65 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Teste_Taking_Jsl.Apresentation
 build_property.RootNamespace = Teste_Taking_Jsl.Apresentation
-build_property.ProjectDir = C:\Projetos\Teste-Taking-Jsl\Teste-Taking-Jsl\Teste-Taking-Jsl\
+build_property.ProjectDir = C:\Teste-Taking-Jsl\Teste-Taking-Jsl\Teste-Taking-Jsl\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Projetos\Teste-Taking-Jsl\Teste-Taking-Jsl\Teste-Taking-Jsl
+build_property.MSBuildProjectDirectory = C:\Teste-Taking-Jsl\Teste-Taking-Jsl\Teste-Taking-Jsl
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Projetos/Teste-Taking-Jsl/Teste-Taking-Jsl/Teste-Taking-Jsl/Views/Cliente/CadastrarCliente.cshtml]
+[C:/Teste-Taking-Jsl/Teste-Taking-Jsl/Teste-Taking-Jsl/Views/Cliente/CadastrarCliente.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxDYWRhc3RyYXJDbGllbnRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projetos/Teste-Taking-Jsl/Teste-Taking-Jsl/Teste-Taking-Jsl/Views/Cliente/Index.cshtml]
+[C:/Teste-Taking-Jsl/Teste-Taking-Jsl/Teste-Taking-Jsl/Views/Cliente/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projetos/Teste-Taking-Jsl/Teste-Taking-Jsl/Teste-Taking-Jsl/Views/Home/Index.cshtml]
+[C:/Teste-Taking-Jsl/Teste-Taking-Jsl/Teste-Taking-Jsl/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projetos/Teste-Taking-Jsl/Teste-Taking-Jsl/Teste-Taking-Jsl/Views/Shared/_Partial/Header.cshtml]
+[C:/Teste-Taking-Jsl/Teste-Taking-Jsl/Teste-Taking-Jsl/Views/Pedido/CadastrarPedido.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvXENhZGFzdHJhclBlZGlkby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Teste-Taking-Jsl/Teste-Taking-Jsl/Teste-Taking-Jsl/Views/Pedido/DetalheCliente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvXERldGFsaGVDbGllbnRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Teste-Taking-Jsl/Teste-Taking-Jsl/Teste-Taking-Jsl/Views/Pedido/DetalheProduto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvXERldGFsaGVQcm9kdXRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Teste-Taking-Jsl/Teste-Taking-Jsl/Teste-Taking-Jsl/Views/Pedido/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Teste-Taking-Jsl/Teste-Taking-Jsl/Teste-Taking-Jsl/Views/Produto/CadastrarProduto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xDYWRhc3RyYXJQcm9kdXRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Teste-Taking-Jsl/Teste-Taking-Jsl/Teste-Taking-Jsl/Views/Produto/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Teste-Taking-Jsl/Teste-Taking-Jsl/Teste-Taking-Jsl/Views/Shared/_Partial/Header.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXJ0aWFsXEhlYWRlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projetos/Teste-Taking-Jsl/Teste-Taking-Jsl/Teste-Taking-Jsl/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Teste-Taking-Jsl/Teste-Taking-Jsl/Teste-Taking-Jsl/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projetos/Teste-Taking-Jsl/Teste-Taking-Jsl/Teste-Taking-Jsl/Views/_ViewImports.cshtml]
+[C:/Teste-Taking-Jsl/Teste-Taking-Jsl/Teste-Taking-Jsl/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projetos/Teste-Taking-Jsl/Teste-Taking-Jsl/Teste-Taking-Jsl/Views/_ViewStart.cshtml]
+[C:/Teste-Taking-Jsl/Teste-Taking-Jsl/Teste-Taking-Jsl/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Projetos/Teste-Taking-Jsl/Teste-Taking-Jsl/Teste-Taking-Jsl/Views/Shared/_Layout.cshtml]
+[C:/Teste-Taking-Jsl/Teste-Taking-Jsl/Teste-Taking-Jsl/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-t93bopx2gx

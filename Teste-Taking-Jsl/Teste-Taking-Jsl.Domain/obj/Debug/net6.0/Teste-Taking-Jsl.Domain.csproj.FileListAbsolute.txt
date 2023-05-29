@@ -10,3 +10,15 @@ C:\Projetos\Teste-Taking-Jsl\Teste-Taking-Jsl\Teste-Taking-Jsl.Domain\obj\Debug\
 C:\Projetos\Teste-Taking-Jsl\Teste-Taking-Jsl\Teste-Taking-Jsl.Domain\obj\Debug\net6.0\refint\Teste-Taking-Jsl.Domain.dll
 C:\Projetos\Teste-Taking-Jsl\Teste-Taking-Jsl\Teste-Taking-Jsl.Domain\obj\Debug\net6.0\Teste-Taking-Jsl.Domain.pdb
 C:\Projetos\Teste-Taking-Jsl\Teste-Taking-Jsl\Teste-Taking-Jsl.Domain\obj\Debug\net6.0\ref\Teste-Taking-Jsl.Domain.dll
+C:\Teste-Taking-Jsl\Teste-Taking-Jsl\Teste-Taking-Jsl.Domain\bin\Debug\net6.0\Teste-Taking-Jsl.Domain.deps.json
+C:\Teste-Taking-Jsl\Teste-Taking-Jsl\Teste-Taking-Jsl.Domain\bin\Debug\net6.0\Teste-Taking-Jsl.Domain.dll
+C:\Teste-Taking-Jsl\Teste-Taking-Jsl\Teste-Taking-Jsl.Domain\bin\Debug\net6.0\Teste-Taking-Jsl.Domain.pdb
+C:\Teste-Taking-Jsl\Teste-Taking-Jsl\Teste-Taking-Jsl.Domain\obj\Debug\net6.0\Teste-Taking-Jsl.Domain.csproj.AssemblyReference.cache
+C:\Teste-Taking-Jsl\Teste-Taking-Jsl\Teste-Taking-Jsl.Domain\obj\Debug\net6.0\Teste-Taking-Jsl.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Teste-Taking-Jsl\Teste-Taking-Jsl\Teste-Taking-Jsl.Domain\obj\Debug\net6.0\Teste-Taking-Jsl.Domain.AssemblyInfoInputs.cache
+C:\Teste-Taking-Jsl\Teste-Taking-Jsl\Teste-Taking-Jsl.Domain\obj\Debug\net6.0\Teste-Taking-Jsl.Domain.AssemblyInfo.cs
+C:\Teste-Taking-Jsl\Teste-Taking-Jsl\Teste-Taking-Jsl.Domain\obj\Debug\net6.0\Teste-Taking-Jsl.Domain.csproj.CoreCompileInputs.cache
+C:\Teste-Taking-Jsl\Teste-Taking-Jsl\Teste-Taking-Jsl.Domain\obj\Debug\net6.0\Teste-Taking-Jsl.Domain.dll
+C:\Teste-Taking-Jsl\Teste-Taking-Jsl\Teste-Taking-Jsl.Domain\obj\Debug\net6.0\refint\Teste-Taking-Jsl.Domain.dll
+C:\Teste-Taking-Jsl\Teste-Taking-Jsl\Teste-Taking-Jsl.Domain\obj\Debug\net6.0\Teste-Taking-Jsl.Domain.pdb
+C:\Teste-Taking-Jsl\Teste-Taking-Jsl\Teste-Taking-Jsl.Domain\obj\Debug\net6.0\ref\Teste-Taking-Jsl.Domain.dll

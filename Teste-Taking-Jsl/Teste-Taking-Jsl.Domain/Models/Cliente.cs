@@ -10,5 +10,6 @@
         public DateTime DataCadastro { get; set; }
 
         public DateTime DataAlteracao { get; set; }
+        public virtual List<Pedido> Pedido { get; set; }
     }
 }

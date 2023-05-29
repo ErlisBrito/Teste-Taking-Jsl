@@ -714,11 +714,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.CrossCutting.IoC\\Teste-Taking-Jsl.CrossCutting.IoC.csproj",
+      "projectUniqueName": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.CrossCutting.IoC\\Teste-Taking-Jsl.CrossCutting.IoC.csproj",
       "projectName": "Teste-Taking-Jsl.CrossCutting.IoC",
-      "projectPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.CrossCutting.IoC\\Teste-Taking-Jsl.CrossCutting.IoC.csproj",
+      "projectPath": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.CrossCutting.IoC\\Teste-Taking-Jsl.CrossCutting.IoC.csproj",
       "packagesPath": "C:\\Users\\brb-s\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.CrossCutting.IoC\\obj\\",
+      "outputPath": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.CrossCutting.IoC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\brb-s\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -735,11 +735,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Application\\Teste-Taking-Jsl.Application.csproj": {
-              "projectPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Application\\Teste-Taking-Jsl.Application.csproj"
+            "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Application\\Teste-Taking-Jsl.Application.csproj": {
+              "projectPath": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Application\\Teste-Taking-Jsl.Application.csproj"
             },
-            "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Data\\Teste-Taking-Jsl.Data.csproj": {
-              "projectPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Data\\Teste-Taking-Jsl.Data.csproj"
+            "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Data\\Teste-Taking-Jsl.Data.csproj": {
+              "projectPath": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Data\\Teste-Taking-Jsl.Data.csproj"
             }
           }
         }
