@@ -22,8 +22,10 @@ namespace Teste_Taking_Jsl.CrossCutting.IoC
         private static void RegisterServicesApplication(IServiceCollection services)
         {
             services.AddScoped<IClienteAppService, ClienteAppService>();
+            services.AddScoped<IProdutoAppService, ProdutoAppService>();
+            services.AddScoped<IPedidoAppService, PedidoAppService>();
         }
-
+        
         /// <summary>
         /// Infra - Data 
         /// </summary>
@@ -32,6 +34,8 @@ namespace Teste_Taking_Jsl.CrossCutting.IoC
         {
             services.AddDbContext<TakingJslContext>(ServiceLifetime.Transient);
             services.AddScoped<IClienteRepository, ClienteRepository>();
+            services.AddScoped<IProdutoRepository, ProdutoRepository>();
+            services.AddScoped<IPedidoRepository, PedidoRepository>();
         }
     }
 }

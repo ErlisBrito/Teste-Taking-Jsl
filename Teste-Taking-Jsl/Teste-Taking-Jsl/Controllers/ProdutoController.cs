@@ -1,83 +1,69 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using Teste_Taking_Jsl.Application.Interfaces;
+using Teste_Taking_Jsl.Application.Models;
 
 namespace Teste_Taking_Jsl.Controllers
 {
     public class ProdutoController : Controller
     {
-        // GET: ProdutoController
+        private readonly IProdutoAppService _produtoAppService;
+        public ProdutoController(IProdutoAppService produtoAppService)
+        {
+            _produtoAppService = produtoAppService;
+        }
+
+        [HttpGet]
+        //esta action retornar a lista de produtos ativos e inativos
         public ActionResult Index()
         {
             return View();
         }
 
-        // GET: ProdutoController/Details/5
-        public ActionResult Details(int id)
+        [HttpGet]
+        public async Task<JsonResult> ListarProdutos()
+        {
+            var lstProdutos = await _produtoAppService.ListarProdutoAsync();
+            return Json(lstProdutos);
+        }
+
+        [HttpGet]
+        public ActionResult CadastrarProduto()
         {
             return View();
         }
 
-        // GET: ProdutoController/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
 
-        // POST: ProdutoController/Create
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public async Task<IActionResult> SalvarProduto(ProdutoViewModel produtoViewModel)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                if (produtoViewModel.Id > default(int))
+                    await _produtoAppService.AtualizarProdutoAsync(produtoViewModel);
+                else
+                    await _produtoAppService.SalvarProdutoAsync(produtoViewModel);
+                return RedirectToAction("Index", "Produto");
             }
-            catch
+            catch (Exception)
             {
-                return View();
+                throw;
             }
         }
 
-        // GET: ProdutoController/Edit/5
-        public ActionResult Edit(int id)
+
+        [HttpGet]
+        public async Task<ActionResult> EditarProduto(int id)
         {
-            return View();
+            var resultado = await _produtoAppService.ObterClienteAsync(id);
+            ViewBag.Sucess = resultado.Mensagem;
+            return View("CadastrarProduto", resultado.Model);
         }
 
-        // POST: ProdutoController/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        [HttpGet]
+        public async Task<ActionResult> DeletarProduto(int id, IFormCollection collection)
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: ProdutoController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: ProdutoController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            _ = await _produtoAppService.DeletarProdutoAsync(id);
+            return RedirectToAction("Index", "Produto");
         }
     }
 }

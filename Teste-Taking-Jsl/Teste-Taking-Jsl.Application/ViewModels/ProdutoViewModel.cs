@@ -8,7 +8,8 @@
         public decimal Preco { get; set; }
         public int Quantidade { get; set; }
         public DateTime DataCadastro { get; set; }
-        public DateTime DataAlteracao { get; set; }= DateTime.Now;
+        public DateTime DataAlteracao { get; set; }
+
     }
 
 }

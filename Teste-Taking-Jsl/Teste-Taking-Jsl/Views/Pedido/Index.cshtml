@@ -1,0 +1,132 @@
+﻿@{
+    ViewData["Title"] = "Listar Pedidos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="preloader">
+    <div class="preloader-inner">
+        <div class="preloader-icon">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</div>
+<div class="breadcrumbs">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 offset-lg-3 col-md-12 col-12">
+                <div class="breadcrumbs-content">
+                    <h1 class="page-title">Lista de Pedidos</h1>
+                    <ul class="breadcrumb-nav">
+                        <li> <a class="btn" href="@Url.Action("Index","Home")"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<section class="about section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="text-right">
+                    <a class="btn btn-outline-primary btn-ft-lg" href="@Url.Action("CadastrarPedido","Pedido")"> <span class=""><i class="fa fa-plus-circle"></i></span> Adicionar</a>
+                </div>
+                @if (@ViewBag.Sucess != null)
+                {
+                    <div class="alert alert-success">
+                        <strong>@ViewBag.Sucess</strong>
+                    </div>
+                }
+                @if (@ViewBag.Erro != null)
+                {
+                    <div class="alert alert-danger">
+                        <strong>@ViewBag.Erro!</strong>
+                    </div>
+                }
+                <div class="card">
+                    <div class="card-body">
+                        <table id="lstCliente" class="display"></table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        ListarPedido();
+    });
+
+    function ListarPedido() {
+        $.ajax({
+            type: 'GET',
+            async: true,
+            url: '@Url.Action("ListarPedidos","Pedido")',
+            success: function(data) {
+                $('#lstCliente').DataTable({
+                    language: {
+                        lengthMenu: 'Mostrar _MENU_ quantidade por página',
+                        zeroRecords: 'Nada encontrado - desculpe',
+                        info: 'Mostrando página _PAGE_ por _PAGES_',
+                        infoEmpty: 'Não há registros disponíveis',
+                        infoFiltered: '(filtrado de _MAX_ registros totais)',
+                        search: "Buscar:",
+                        paginate: {
+                            first: "Primeiro",
+                            last: "Último",
+                            next: "Próximo",
+                            previous: "Anterior"
+                        },
+                    },
+                    data: data.model,
+                    columns: [
+                        { title: "Id", data: "id" },
+                        { title: "Cliente", data: "cliente" },
+                        {
+                            data: "clienteId",
+                            className: "dt-center editor-edit",
+                            render: function(data, type, row, meta) {
+                                return '<a href="@Url.Action("DetalheCliente","Pedido")?clienteId=' + data + '">Detalhes Cliente</a>'
+                            },
+                            orderable: false
+                        },
+                        { title: "Produto", data: "produto" },
+                        {
+                            data: "produtoId",
+                            className: "dt-center editor-edit",
+                            render: function(data, type, row, meta) {
+                                return '<a href="@Url.Action("DetalheProduto","Pedido")?produtoId=' + data + '">Detalhes Produto</a>'
+                            },
+                            orderable: false
+                        },
+                        { title: "Quantidade", data: "quantidade" },
+                        { title: "Total", data: "valorTotal" },
+                        { title: "Status", data: "status" },
+
+                        {
+                            data: "id",
+                            className: "dt-center editor-edit",
+                            render: function(data, type, row, meta) {
+                                return '<a href="@Url.Action("EditarPedido","Pedido")?id=' + data + '">Editar</a>'
+                            },
+                            orderable: false
+                        },
+                        {
+                            data: "id",
+                            className: "dt-center editor-edit",
+                            render: function(data, type, row, meta) {
+                                return '<a href="@Url.Action("DeletarPedido","Pedido")?id=' + data + '">Excluir</a>'
+                            },
+                            orderable: false
+                        }
+                    ],
+                });
+            }
+        });
+    }
+</script>

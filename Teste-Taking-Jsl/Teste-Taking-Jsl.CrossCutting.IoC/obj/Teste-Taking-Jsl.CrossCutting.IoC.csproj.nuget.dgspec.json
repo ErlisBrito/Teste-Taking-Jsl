@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.CrossCutting.IoC\\Teste-Taking-Jsl.CrossCutting.IoC.csproj": {}
+    "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.CrossCutting.IoC\\Teste-Taking-Jsl.CrossCutting.IoC.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Application\\Teste-Taking-Jsl.Application.csproj": {
+    "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Application\\Teste-Taking-Jsl.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Application\\Teste-Taking-Jsl.Application.csproj",
+        "projectUniqueName": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Application\\Teste-Taking-Jsl.Application.csproj",
         "projectName": "Teste-Taking-Jsl.Application",
-        "projectPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Application\\Teste-Taking-Jsl.Application.csproj",
+        "projectPath": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Application\\Teste-Taking-Jsl.Application.csproj",
         "packagesPath": "C:\\Users\\brb-s\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Application\\obj\\",
+        "outputPath": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\brb-s\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Common\\Teste-Taking-Jsl.Common.csproj": {
-                "projectPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Common\\Teste-Taking-Jsl.Common.csproj"
+              "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Common\\Teste-Taking-Jsl.Common.csproj": {
+                "projectPath": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Common\\Teste-Taking-Jsl.Common.csproj"
               },
-              "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Domain\\Teste-Taking-Jsl.Domain.csproj": {
-                "projectPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Domain\\Teste-Taking-Jsl.Domain.csproj"
+              "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Domain\\Teste-Taking-Jsl.Domain.csproj": {
+                "projectPath": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Domain\\Teste-Taking-Jsl.Domain.csproj"
               }
             }
           }
@@ -71,14 +71,14 @@
         }
       }
     },
-    "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Common\\Teste-Taking-Jsl.Common.csproj": {
+    "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Common\\Teste-Taking-Jsl.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Common\\Teste-Taking-Jsl.Common.csproj",
+        "projectUniqueName": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Common\\Teste-Taking-Jsl.Common.csproj",
         "projectName": "Teste-Taking-Jsl.Common",
-        "projectPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Common\\Teste-Taking-Jsl.Common.csproj",
+        "projectPath": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Common\\Teste-Taking-Jsl.Common.csproj",
         "packagesPath": "C:\\Users\\brb-s\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Common\\obj\\",
+        "outputPath": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\brb-s\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -125,14 +125,14 @@
         }
       }
     },
-    "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.CrossCutting.IoC\\Teste-Taking-Jsl.CrossCutting.IoC.csproj": {
+    "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.CrossCutting.IoC\\Teste-Taking-Jsl.CrossCutting.IoC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.CrossCutting.IoC\\Teste-Taking-Jsl.CrossCutting.IoC.csproj",
+        "projectUniqueName": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.CrossCutting.IoC\\Teste-Taking-Jsl.CrossCutting.IoC.csproj",
         "projectName": "Teste-Taking-Jsl.CrossCutting.IoC",
-        "projectPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.CrossCutting.IoC\\Teste-Taking-Jsl.CrossCutting.IoC.csproj",
+        "projectPath": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.CrossCutting.IoC\\Teste-Taking-Jsl.CrossCutting.IoC.csproj",
         "packagesPath": "C:\\Users\\brb-s\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.CrossCutting.IoC\\obj\\",
+        "outputPath": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.CrossCutting.IoC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\brb-s\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -149,11 +149,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Application\\Teste-Taking-Jsl.Application.csproj": {
-                "projectPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Application\\Teste-Taking-Jsl.Application.csproj"
+              "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Application\\Teste-Taking-Jsl.Application.csproj": {
+                "projectPath": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Application\\Teste-Taking-Jsl.Application.csproj"
               },
-              "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Data\\Teste-Taking-Jsl.Data.csproj": {
-                "projectPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Data\\Teste-Taking-Jsl.Data.csproj"
+              "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Data\\Teste-Taking-Jsl.Data.csproj": {
+                "projectPath": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Data\\Teste-Taking-Jsl.Data.csproj"
               }
             }
           }
@@ -192,14 +192,14 @@
         }
       }
     },
-    "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Data\\Teste-Taking-Jsl.Data.csproj": {
+    "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Data\\Teste-Taking-Jsl.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Data\\Teste-Taking-Jsl.Data.csproj",
+        "projectUniqueName": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Data\\Teste-Taking-Jsl.Data.csproj",
         "projectName": "Teste-Taking-Jsl.Data",
-        "projectPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Data\\Teste-Taking-Jsl.Data.csproj",
+        "projectPath": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Data\\Teste-Taking-Jsl.Data.csproj",
         "packagesPath": "C:\\Users\\brb-s\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Data\\obj\\",
+        "outputPath": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\brb-s\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -216,8 +216,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Domain\\Teste-Taking-Jsl.Domain.csproj": {
-                "projectPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Domain\\Teste-Taking-Jsl.Domain.csproj"
+              "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Domain\\Teste-Taking-Jsl.Domain.csproj": {
+                "projectPath": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Domain\\Teste-Taking-Jsl.Domain.csproj"
               }
             }
           }
@@ -260,14 +260,14 @@
         }
       }
     },
-    "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Domain\\Teste-Taking-Jsl.Domain.csproj": {
+    "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Domain\\Teste-Taking-Jsl.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Domain\\Teste-Taking-Jsl.Domain.csproj",
+        "projectUniqueName": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Domain\\Teste-Taking-Jsl.Domain.csproj",
         "projectName": "Teste-Taking-Jsl.Domain",
-        "projectPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Domain\\Teste-Taking-Jsl.Domain.csproj",
+        "projectPath": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Domain\\Teste-Taking-Jsl.Domain.csproj",
         "packagesPath": "C:\\Users\\brb-s\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Domain\\obj\\",
+        "outputPath": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\brb-s\\AppData\\Roaming\\NuGet\\NuGet.Config",

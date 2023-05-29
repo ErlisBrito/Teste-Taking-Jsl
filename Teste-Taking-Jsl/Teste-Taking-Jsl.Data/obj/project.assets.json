@@ -550,11 +550,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Data\\Teste-Taking-Jsl.Data.csproj",
+      "projectUniqueName": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Data\\Teste-Taking-Jsl.Data.csproj",
       "projectName": "Teste-Taking-Jsl.Data",
-      "projectPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Data\\Teste-Taking-Jsl.Data.csproj",
+      "projectPath": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Data\\Teste-Taking-Jsl.Data.csproj",
       "packagesPath": "C:\\Users\\brb-s\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Data\\obj\\",
+      "outputPath": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\brb-s\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -571,8 +571,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Domain\\Teste-Taking-Jsl.Domain.csproj": {
-              "projectPath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Domain\\Teste-Taking-Jsl.Domain.csproj"
+            "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Domain\\Teste-Taking-Jsl.Domain.csproj": {
+              "projectPath": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Domain\\Teste-Taking-Jsl.Domain.csproj"
             }
           }
         }

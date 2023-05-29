@@ -9,6 +9,8 @@ namespace Teste_Taking_Jsl.Application.AutoMappers
         public DomainToViewModelMappingProfile()
         {
             CreateMap<Cliente, ClienteViewModel>();
+            CreateMap<Produto, ProdutoViewModel>();
+            CreateMap<Pedido, PedidoViewModel>();
         }
     }
 }

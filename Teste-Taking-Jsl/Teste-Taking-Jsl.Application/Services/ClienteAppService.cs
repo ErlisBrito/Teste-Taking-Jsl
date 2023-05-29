@@ -49,6 +49,7 @@ namespace Teste_Taking_Jsl.Application.Services
                 var Cliente = clienteEntity;
                 clienteEntity = _mapper.Map<Cliente>(clienteViewModel);
                 clienteEntity.DataAlteracao = DateTime.Now;
+                clienteEntity.DataCadastro = Cliente.DataCadastro;
                 _clienteRepository.AtualizarCliente(clienteEntity);
                 return Resultado<ClienteViewModel>.SucessoMensagem("Cliente atualizado com sucesso!");
             }
@@ -79,6 +80,30 @@ namespace Teste_Taking_Jsl.Application.Services
             try
             {
                 var lstCliente = await _clienteRepository.ListarClienteAsync();
+                var lstClienteViewModel = _mapper.Map<List<ClienteViewModel>>(lstCliente);
+                var resultado = new Resultado<List<ClienteViewModel>>()
+                {
+                    StatusCode = System.Net.HttpStatusCode.OK,
+                    Model = lstClienteViewModel
+                };
+
+                return resultado;
+            }
+            catch (Exception ex)
+            {
+                return new Resultado<List<ClienteViewModel>>()
+                {
+                    Mensagem = $"Erro ao listar os cliente: {ex.Message}!",
+                    StatusCode = System.Net.HttpStatusCode.OK
+                };
+            }
+        }
+
+        public async Task<Resultado<List<ClienteViewModel>>> ListarClienteAtivoAsync()
+        {
+            try
+            {
+                var lstCliente = await _clienteRepository.ListarClienteAtivosAsync();
                 var lstClienteViewModel = _mapper.Map<List<ClienteViewModel>>(lstCliente);
                 var resultado = new Resultado<List<ClienteViewModel>>()
                 {

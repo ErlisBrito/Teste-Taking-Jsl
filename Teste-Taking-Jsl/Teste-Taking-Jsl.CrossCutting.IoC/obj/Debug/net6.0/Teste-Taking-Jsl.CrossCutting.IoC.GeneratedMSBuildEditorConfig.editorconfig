@@ -7,4 +7,4 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Teste_Taking_Jsl.CrossCutting.IoC
-build_property.ProjectDir = C:\Projetos\Teste-Taking-Jsl\Teste-Taking-Jsl\Teste-Taking-Jsl.CrossCutting.IoC\
+build_property.ProjectDir = C:\Teste-Taking-Jsl\Teste-Taking-Jsl\Teste-Taking-Jsl.CrossCutting.IoC\

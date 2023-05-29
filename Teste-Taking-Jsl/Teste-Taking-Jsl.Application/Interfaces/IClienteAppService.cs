@@ -10,5 +10,7 @@ namespace Teste_Taking_Jsl.Application.Interfaces
         Task<Resultado<List<ClienteViewModel>>> ListarClienteAsync();
         Task<Resultado<ClienteViewModel>> ObterClienteAsync(int usuarioId);
         Task<Resultado<ClienteViewModel>> DeletarClienteAsync(int id);
+
+        Task<Resultado<List<ClienteViewModel>>> ListarClienteAtivoAsync();
     }
 }

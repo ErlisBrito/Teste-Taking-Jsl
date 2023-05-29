@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S71sjZ8jNpmmIBe0pbopilm05gU7qlaBjn4ZPJyQfQWa4hYZ35AsjVO0m3DR2BDIRHdILmgk5FJJ9SeBGkAqYg==",
+  "dgSpecHash": "IiQdeXbclsKtwyZFpiUUrhCi9M30ZBcmnjRjQmeQ9d8vQDwcco+m9SACEANpw9Ln4BtbXBsqfSixPa9vTGGGIA==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Application\\Teste-Taking-Jsl.Application.csproj",
+  "projectFilePath": "C:\\Teste-Taking-Jsl\\Teste-Taking-Jsl\\Teste-Taking-Jsl.Application\\Teste-Taking-Jsl.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\brb-s\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\brb-s\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
