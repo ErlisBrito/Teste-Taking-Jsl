@@ -35,3 +35,50 @@ USE `Taking-Jsl`;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed on 2023-05-29 15:36:48
+
+
+
+CREATE TABLE `Cliente` (
+  `Id` int NOT NULL AUTO_INCREMENT,
+  `Nome` varchar(100) NOT NULL,
+  `Status` tinyint NOT NULL,
+  `DataCadastro` datetime DEFAULT NULL,
+  `DataAlteracao` datetime DEFAULT NULL,
+  `Telefone` varchar(15) NOT NULL,
+  `Email` varchar(45) NOT NULL,
+  PRIMARY KEY (`Id`),
+  UNIQUE KEY `Email_UNIQUE` (`Email`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `Produto` (
+  `Id` int NOT NULL AUTO_INCREMENT,
+  `Nome` varchar(200) NOT NULL,
+  `Status` tinyint NOT NULL,
+  `Quantidade` int NOT NULL,
+  `Preco` decimal(10,0) NOT NULL,
+  `DataCadastro` datetime DEFAULT NULL,
+  `DataAlteracao` datetime DEFAULT NULL,
+  PRIMARY KEY (`Id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `Pedido` (
+  `Id` int NOT NULL AUTO_INCREMENT,
+  `DataPedido` datetime NOT NULL,
+  `ValorTotal` decimal(10,0) NOT NULL,
+  `Logradouro` varchar(1200) DEFAULT NULL,
+  `Bairro` varchar(100) NOT NULL,
+  `Cidade` varchar(100) NOT NULL,
+  `Estado` varchar(2) NOT NULL,
+  `Cep` varchar(12) NOT NULL,
+  `ClienteId` int NOT NULL,
+  `ProdutoId` int NOT NULL,
+  `Quantidade` int NOT NULL,
+  `DataAlteracao` datetime DEFAULT NULL,
+  `Status` varchar(12) DEFAULT NULL,
+  PRIMARY KEY (`Id`),
+  KEY `FK_PedidoCliente_idx` (`ClienteId`),
+  KEY `FK_PedidoProduto` (`ProdutoId`),
+  CONSTRAINT `FK_PedidoCliente_idx` FOREIGN KEY (`ClienteId`) REFERENCES `Cliente` (`Id`),
+  CONSTRAINT `FK_PedidoProduto` FOREIGN KEY (`ProdutoId`) REFERENCES `Produto` (`Id`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
